@@ -451,6 +451,26 @@ textarea {
 }
 body {
   font-family: "Gilroy";
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }
 
 header {
@@ -921,9 +941,13 @@ footer {
   }
 }
 
-#studyRequirements {
+#studyRequirementsRow1 {
   display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 68px;
+}
+
+#studyRequirementsRow2 {
+  display: flex;
   margin-bottom: 118px;
 }
 
@@ -932,7 +956,7 @@ footer {
   width: 211px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 82px;
+  margin-left: 6.2%;
 }
 
 #dates {
@@ -940,8 +964,7 @@ footer {
   width: 327px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 148px;
-  margin-bottom: 69px;
+  margin-left: 11.3%;
 }
 
 #phase {
@@ -949,7 +972,7 @@ footer {
   width: 114px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 208px;
+  margin-left: 16%;
 }
 
 #condition {
@@ -962,18 +985,18 @@ footer {
 
 #interventions {
   height: 110px;
-  width: 258px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 104px;
+  margin-left: 7.9%;
+  flex-basis: 19.7%;
 }
 
 #placebo-YorN {
   height: 110px;
-  width: 421px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 89px;
+  margin-left: 6.9%;
+  flex-basis: 32.2%;
 }
 
 #age {
@@ -997,6 +1020,9 @@ footer {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
+  p {
+    margin-bottom: 25px;
+  }
 }
 
 #ageAndGenderContainer {
@@ -1144,6 +1170,30 @@ footer {
 #firstOtherLocation {
   border-top: none;
   padding-top: unset;
+}
+
+#genderSymbols {
+  display: flex;
+  margin-left: 4px;
+}
+
+#femaleSymbol {
+  margin-right: 30px;
+}
+
+#maleSymbol {
+  margin-top: 3px;
+}
+
+#years {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  margin-left: 9px;
+  letter-spacing: 0.4px;
 }
 
 //LYDIA'S CODE!!!

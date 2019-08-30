@@ -412,6 +412,23 @@ textarea {
 }
 body {
   font-family: "Gilroy";
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+body ::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+body ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 header {
   width: 100%;
@@ -716,7 +733,7 @@ header #help {
   letter-spacing: 0px;
 }
 footer {
-  width: auto;
+  width: 1368px;
   height: 55px;
   margin: 25px 0px 0px 6px;
 }
@@ -825,9 +842,12 @@ footer {
   margin-bottom: 29px;
   letter-spacing: 0.4px;
 }
-#studyRequirements {
+#studyRequirementsRow1 {
   display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 68px;
+}
+#studyRequirementsRow2 {
+  display: flex;
   margin-bottom: 118px;
 }
 #goal {
@@ -835,22 +855,21 @@ footer {
   width: 211px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 82px;
+  margin-left: 6.2%;
 }
 #dates {
   height: 110px;
   width: 327px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 148px;
-  margin-bottom: 69px;
+  margin-left: 11.3%;
 }
 #phase {
   height: 110px;
   width: 114px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 208px;
+  margin-left: 16%;
 }
 #condition {
   height: 110px;
@@ -861,17 +880,17 @@ footer {
 }
 #interventions {
   height: 110px;
-  width: 258px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 104px;
+  margin-left: 7.9%;
+  flex-basis: 19.7%;
 }
 #placebo-YorN {
   height: 110px;
-  width: 421px;
   border: 0.6px solid #223547;
   border-radius: 6px;
-  margin-left: 89px;
+  margin-left: 6.9%;
+  flex-basis: 32.2%;
 }
 #age {
   width: 15.8%;
@@ -893,6 +912,9 @@ footer {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
+}
+#gender p {
+  margin-bottom: 25px;
 }
 #ageAndGenderContainer {
   display: flex;
@@ -1027,6 +1049,26 @@ footer {
 #firstOtherLocation {
   border-top: none;
   padding-top: unset;
+}
+#genderSymbols {
+  display: flex;
+  margin-left: 4px;
+}
+#femaleSymbol {
+  margin-right: 30px;
+}
+#maleSymbol {
+  margin-top: 3px;
+}
+#years {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: center;
+  margin-left: 9px;
+  letter-spacing: 0.4px;
 }
 .nav-wrapper {
   display: flex;
