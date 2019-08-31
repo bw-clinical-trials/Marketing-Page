@@ -1,0 +1,312 @@
+//JOSHs CODE
+
+.content {
+    max-width: 1368px;
+    margin: 0px 0px 0px 22px;
+    width: auto;
+    min-width: 900px;
+  }
+
+  #searchContainer {
+    width: auto;
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    border-bottom: #f3f3f3 2px solid;
+  }
+
+  #leftWhitespace {
+    display: flex;
+    width: 17%;
+    border-right: solid #dddddd 1px;
+  
+    flex-flow: column;
+  
+    a {
+      color: #545454;
+      text-decoration: none;
+    }
+  }
+
+  #searchResultsContainer {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    margin-left: 30px;
+    width: 81.5%;
+  }
+
+  #resultsDescription {
+    width: 100%;
+    height: auto;
+    position: relative;
+  
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 32px;
+      padding: 0px 0px 0px 4px;
+      letter-spacing: 0.2px;
+    }
+  
+    h2 {
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 26px;
+      bottom: 0px;
+      float: left;
+    }
+  }
+
+  #totalTrialsFound {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1px 9px 0px 0px;
+    letter-spacing: 2px;
+  }
+
+  #totalTrialsText {
+    padding: 9px 11px 0px 0px;
+    p {
+      font-size: 21px;
+      font-weight: 600;
+      line-height: 45px;
+      text-align: center;
+    }
+  }
+
+  .firstTrialContainer {
+    width: 100%;
+    height: 123px;
+    padding: 22px 0px 24px 0px;
+    display: flex;
+    border-top: none;
+  }
+
+  .trialContainer {
+    width: 100%;
+    height: 123px;
+    padding: 16px 0px 24px 0px;
+    display: flex;
+    border-top: #f3f3f3 2px solid;
+  }
+
+  .condition {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    p {
+      padding: 9px 0px 0px 0px;
+    }
+  }
+
+  .studyTitle {
+    width: 15vw;
+    overflow: auto;
+    min-width: 200px;
+    margin-right: 4.9%;
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+      padding: 26px 0px 0px 0px;
+      letter-spacing: 0.1px;
+    }
+  }
+
+  .studyLocation {
+    display: flex;
+    min-width: 200px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 22.6%;
+  }
+
+  .studyStatus {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    align-items: center;
+    margin-top: 6px;
+    flex-basis: 9%;
+    margin-right: 5%;
+    min-width: 1%;
+    max-width: 100%;
+    p {
+      margin-top: 6px;
+    }
+  }
+
+  .viewStudyButtonContainer {
+    margin: 44px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 13%;
+    width: 100%;
+  
+    a {
+      text-decoration: none;
+      height: 0px;
+      width: inherit;
+    }
+  
+    :hover div {
+      transition: 0.2s;
+      background-color: #1bd9c4;
+      color: #ffffff;
+    }
+  
+    :hover p {
+      transition: 0.5s;
+      background-color: unset;
+    }
+  }
+
+  #studyButtonContainer {
+    :hover div {
+      transition: 0.2s;
+      background-color: #1bd9c4;
+      :first-child {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .viewStudyButton {
+    height: 46px;
+    width: auto;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #223547;
+    color: #ffffff;
+    text-align: center;
+  
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21px;
+      background-color: unset;
+      -webkit-user-select: none; /* Safari */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+/Edge */
+      user-select: none; /* Standard */
+      color: white;
+    }
+  }
+
+  .newStudyButton {
+    height: auto;
+    width: 83.7%;
+    border-radius: 23px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin: 40px 0px 0px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: fit-content;
+  
+    p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21px;
+      padding: 12px 0px 12.5px 0px;
+      text-align: center;
+    }
+  }
+
+  #resultsDetails {
+    position: relative;
+    display: flex;
+    margin: 40px 0px 0px 0px;
+    min-width: 900px;
+    h2 {
+      margin: 3px 0px 0px 0px;
+      font-size: 21px;
+      font-weight: bolder;
+      letter-spacing: 0.2px;
+    }
+  }
+
+  #searchNavigator {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 90px;
+    padding-bottom: 90px;
+  
+    nav {
+      display: flex;
+      a {
+        margin-right: 50px;
+        text-decoration: none;
+        color: #323232;
+        font-weight: bold;
+      }
+    }
+  }
+
+  #studyTitle {
+    flex-basis: 16.5vw;
+  }
+
+  #closestStudyLocation {
+    flex-basis: 21%;
+    margin-right: 3.5vw;
+  }
+
+  #status {
+    flex-basis: 9%;
+  }
+
+  .distance {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    h1 {
+      font-size: 33px;
+      font-weight: bold;
+      padding: 7px 0px 5px 0px;
+    }
+  
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+    }
+  } //not sure if searchResults.html or studyDetails.html both have class="distance"
+
+  .locationDetails {
+    display: flex;
+    flex-flow: column;
+    margin: 8px 0px 0px 36px;
+    line-height: 18px;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    flex-wrap: wrap;
+    h2 {
+      font-weight: bold;
+      font-size: 1.1rem;
+      padding: 0px 0px 4px 0px;
+    }
+    p {
+      margin: 0px 0px 0px 0px;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0px;
+    }
+  } //not sure if searchResults.html or studyDetails.html both have class="distance"
+
+  #resultCondition {
+    margin-right: 4.85vw;
+  }
