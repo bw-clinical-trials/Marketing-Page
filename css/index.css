@@ -564,7 +564,7 @@ header #help {
   min-width: 200px;
   font-weight: 600;
   font-size: 18px;
-  width: 22.5%;
+  width: 22.6%;
 }
 .studyStatus {
   display: flex;
@@ -579,6 +579,8 @@ header #help {
   margin-top: 6px;
   flex-basis: 9%;
   margin-right: 5%;
+  min-width: 1%;
+  max-width: 100%;
 }
 .studyStatus p {
   margin-top: 6px;
@@ -588,10 +590,12 @@ header #help {
   display: flex;
   justify-content: center;
   flex-basis: 13%;
+  width: 100%;
 }
 .viewStudyButtonContainer a {
   text-decoration: none;
   height: 0px;
+  width: inherit;
 }
 .viewStudyButtonContainer :hover div {
   transition: 0.2s;
@@ -611,7 +615,7 @@ header #help {
 }
 .viewStudyButton {
   height: 46px;
-  width: 144px;
+  width: auto;
   border-radius: 23px;
   display: flex;
   justify-content: center;
@@ -718,7 +722,6 @@ header #help {
   line-height: 18px;
   justify-content: center;
   letter-spacing: 0.5px;
-  width: 46%;
   flex-wrap: wrap;
 }
 .locationDetails h2 {
@@ -733,7 +736,7 @@ header #help {
   letter-spacing: 0px;
 }
 footer {
-  width: 1368px;
+  width: auto;
   height: 55px;
   margin: 25px 0px 0px 6px;
 }
@@ -1019,20 +1022,16 @@ footer {
 .trialRecruitContainer .studyStatus .statusIcon {
   margin-left: 1px;
 }
-.trialRecruitContainer .viewStudyButtonContainer {
-  margin: 44px 0px 0px 73px;
-  display: flex;
-  justify-content: center;
-}
 .trialRecruitContainer .viewStudyButton {
   height: 46px;
-  width: 144px;
+  max-width: 144px;
   border-radius: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #223547;
   color: #ffffff;
+  width: inherit;
 }
 #ageData {
   display: flex;
