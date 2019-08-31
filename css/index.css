@@ -622,6 +622,7 @@ header #help {
   align-items: center;
   background-color: #223547;
   color: #ffffff;
+  text-align: center;
 }
 .viewStudyButton p {
   font-size: 18px;
@@ -668,6 +669,9 @@ header #help {
   font-size: 21px;
   font-weight: bolder;
   letter-spacing: 0.2px;
+}
+#resultsBackButton {
+  text-align: center;
 }
 #searchNavigator {
   display: flex;
