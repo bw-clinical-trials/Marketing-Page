@@ -180,7 +180,7 @@ img {
   display: flex;
   justify-content: space-between;
   width: 21.4%;
-  margin: 8px 2.4% 0px 0px;
+  margin: 8px 3.15% 0px 0px;
 }
 .nav-wrapper .nav-bar a {
   display: flex;
@@ -257,7 +257,7 @@ body {
   overflow-x: hidden;
 }
 .main-content {
-  margin: 13.89vw 0px 0px 96px;
+  margin: 13.8vw 0px 0px 96px;
   z-index: 1;
   width: 45vw;
   min-width: 730px;
@@ -273,17 +273,17 @@ body {
   padding-right: 3vw;
 }
 .prompt-paragraph {
-  padding: 39px 7px 0px 0px;
+  padding: 39px 0px 0px 0px;
   font-family: gilroylight;
   line-height: 30px;
   font-size: 21px;
   letter-spacing: 0.05px;
-  width: 83%;
+  width: 86%;
   font-weight: 800;
 }
 .findTrialInputs {
   display: flex;
-  margin: 46px 0px 0px 0px;
+  padding: 46px 0px 0px 0px;
 }
 #findTrialButton {
   background-color: #223547;
@@ -308,8 +308,8 @@ body {
   background: #1bd9c4;
 }
 #medicalConditionInput {
-  padding: 0px 0px 0px 17px;
-  margin: 0px 9px 0px 0px;
+  padding: 1px 0px 0px 17px;
+  margin: 0px 9px 0px 13px;
   width: 30em;
   height: 42px;
   border-radius: 21px;
