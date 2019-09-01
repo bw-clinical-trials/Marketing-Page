@@ -1,14 +1,12 @@
 @font-face {
-  font-family: "gilroyextrabold";
-  src: url("../fonts/webfontkit/gilroy-extrabold-webfont.woff2") format("woff2"),
-    url("../fonts/webfontkit/gilroy-extrabold-webfont.woff") format("woff");
+  font-family: 'gilroyextrabold';
+  src: url('../fonts/webfontkit/gilroy-extrabold-webfont.woff2') format('woff2'), url('../fonts/webfontkit/gilroy-extrabold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "gilroylight";
-  src: url("../fonts/webfontkit/gilroy-light-webfont.woff2") format("woff2"),
-    url("../fonts/webfontkit/gilroy-light-webfont.woff") format("woff");
+  font-family: 'gilroylight';
+  src: url('../fonts/webfontkit/gilroy-light-webfont.woff2') format('woff2'), url('../fonts/webfontkit/gilroy-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -133,7 +131,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -190,10 +188,10 @@ img {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-family: "gilroylight";
+  font-family: 'gilroylight';
   font-size: 1.8rem;
   font-weight: 900;
-  color: #3f3f3f;
+  color: #3F3F3F;
   align-content: center;
 }
 .nav-wrapper .nav-bar :nth-last-child(2) {
@@ -349,19 +347,39 @@ img {
   padding: 0px 0px 0px 68px;
   font-family: gilroylight;
 }
-.age-prompt p {
+.age-prompt #ageInput {
+  display: flex;
+  justify-content: right;
+  padding: 0px 0px 0px 0px;
+}
+.age-prompt #submitAgeLink {
   font-size: 2.1em;
   padding: 3px 0px 27px 0px;
+  background-color: #223547;
+  font-family: "gilroylight";
+  height: 46px;
+  width: 105px;
+  margin-top: 23px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: 0.3s background ease;
+}
+.age-prompt #submitAgeLink:hover {
+  background: #1BD9C4;
 }
 #ageInput {
   width: 18.5em;
   height: 48px;
   border-radius: 35px;
   border: 0.05em solid #979797;
-  font-family: gilroylight;
+  font-family: 'gilroylight';
   font-size: 16px;
-  font-color: #aeaeae;
-  padding: 0px 0px 0px 235px;
+  color: #AEAEAE;
 }
 #submitAge {
   background-color: #223547;
@@ -379,7 +397,7 @@ img {
   transition: 0.3s background ease;
 }
 #submitAge:hover {
-  background: #1bd9c4;
+  background: #1BD9C4;
 }
 .age-results {
   display: flex;
@@ -392,7 +410,7 @@ img {
   width: 232px;
   padding: 0px 0px 0px 0px;
   margin: 6px 0px 0px 300px;
-  font-family: "gilroylight";
+  font-family: 'gilroylight';
   font-size: 2.1em;
   font-weight: 900;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
@@ -405,7 +423,7 @@ img {
 }
 .travelRadiusHeader {
   display: block;
-  padding: 121px 0px 0px 187px;
+  padding: 8.9% 0% 0% 14%;
 }
 .travelRadiusHeader img {
   height: 63px;
@@ -416,7 +434,9 @@ img {
 }
 .travelRadiusMainContent {
   display: flex;
-  padding: 81px 0px 0px 218px;
+  padding: 6% 0% 0% 16%;
+  width: 100%;
+  margin: 0 auto;
 }
 .travelRadiusMainContent .box .chart {
   padding: 0px 0px 0px 0px;
@@ -424,13 +444,13 @@ img {
 .travelRadiusPrompt {
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  padding: 0px 82px 0px 73px;
+  width: 48%;
+  padding: 0% 0% 0% 6.5%;
 }
 .travelRadiusPrompt p {
   line-height: 1.5;
   font-size: 2.1rem;
-  font-family: "gilroylight";
+  font-family: 'gilroylight';
   padding: 0px 0px 3px 0px;
   margin: 6px 0px 0px -6px;
 }
@@ -445,7 +465,7 @@ img {
   /* padding-bottom: 30px; */
   font-size: 21px;
   font-weight: 500;
-  font-family: "gilroylight";
+  font-family: 'gilroylight';
 }
 .radioContainerTravelRadius input {
   display: none;
@@ -454,20 +474,41 @@ img {
   display: inline-block;
   width: 28px;
   height: 28px;
-  border: 0.05em solid #1bd9c4;
+  border: 0.05em solid #1BD9C4;
   position: absolute;
   left: 0;
   top: 0;
   border-radius: 50%;
 }
 .radioContainerTravelRadius:hover .circle {
-  background-color: #1bd9c4;
+  background-color: #1BD9C4;
 }
 .radioContainerTravelRadius input:checked + .circle {
-  background-color: #1bd9c4;
+  background-color: #1BD9C4;
+}
+#travelRadiusSubmit {
+  background-color: #223547;
+  font-family: "gilroylight";
+  height: 46px;
+  width: 105px;
+  margin-top: 23px;
+  border: none;
+  color: white;
+  /* text-align: center; */
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: 0.3s background ease;
+}
+#travelRadiusSubmit:hover {
+  background: #1BD9C4;
 }
 .travel-results {
   display: flex;
+  /* width: 50%; */
 }
 .travel-results-text {
   display: flex;
@@ -475,8 +516,6 @@ img {
   width: 232px;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 0px 0px;
-  margin: 9px 0px 0px 198px;
   /* text-align: center; */
   /* justify-items: center; */
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
