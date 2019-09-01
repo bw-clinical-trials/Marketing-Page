@@ -27,16 +27,16 @@
 	padding: 0px 0px 0px 68px;
 	font-family: gilroylight;
 
-    #ageInput {
+    input {
         display: flex;
         justify-content: right;
         padding: 0px 0px 0px 0px;
     }
 
 	#submitAgeLink {
-		font-size: 2.1em;
-        padding: 3px 0px 27px 0px;
-        background-color: @button-color;
+        font-size: 2.1em;
+        padding: 0px 0px 0px 0px;
+        background-color: #223547;
         font-family: "gilroylight";
         height: 46px;
         width: 105px;
@@ -45,16 +45,19 @@
         color: white;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 18px;
         border-radius: 30px;
         transition: 0.3s background ease;
-    
+        
         &:hover{
             background: #1BD9C4
         } 
-    }  
-}
+    }
+    
+}  
 
 
 
@@ -65,28 +68,31 @@
     border: 0.05em solid #979797;
     font-family: 'gilroylight';
 	font-size: 16px;
-	color: #AEAEAE;
+    color: #AEAEAE;
+    display: flex;
+    justify-content: right;
+    padding: 0px 0px 0px 10px;
 }
 
-#submitAge{
-	background-color: @button-color;
-	font-family: "gilroylight";
-    height: 46px;
-    width: 105px;
-    margin-top: 23px;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    border-radius: 30px;
-    transition: 0.3s background ease;
+// #submitAge{
+// 	background-color: @button-color;
+// 	font-family: "gilroylight";
+//     height: 46px;
+//     width: 105px;
+//     margin-top: 23px;
+//     border: none;
+//     color: white;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 18px;
+//     border-radius: 30px;
+//     transition: 0.3s background ease;
 
-	&:hover{
-		background: #1BD9C4
-	}
-}
+// 	&:hover{
+// 		background: #1BD9C4
+// 	}
+// }
 
 .age-results {
 	display: flex;
