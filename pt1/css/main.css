@@ -192,6 +192,30 @@ img {
   color: #3f3f3f;
   align-content: center;
 }
+.genericButton {
+  background-color: #223547;
+  font-family: "gilroylight";
+  height: 42px;
+  width: 127px;
+  border: 0;
+  color: white;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 21px;
+  margin: 0px 0px 0px 9px;
+  text-transform: uppercase;
+  transition: 0.3s background ease;
+  z-index: 1;
+  text-align: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.genericButton :hover a {
+  background-color: #1bd9c4;
+  transition: 0.2s;
+}
 .footer-nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -229,10 +253,15 @@ img {
   display: flex;
   justify-content: space-between;
 }
+body {
+  overflow-x: hidden;
+}
 .main-content {
   margin: 13.8vw 0px 74.9vh 96px;
   z-index: 1;
   width: 45vw;
+  min-width: 730px;
+  position: absolute;
 }
 .prompt-header {
   font-family: "gilroylight";
@@ -305,14 +334,15 @@ img {
 }
 .molecules {
   pointer-events: none;
-  margin-top: 7%;
-  margin-bottom: 6.3%;
-  z-index: 0;
-  float: right;
-  position: absolute;
+  margin-top: 3%;
+  width: 100vw;
+  min-width: 1245px;
+  overflow: hidden;
+  height: 135.7%;
 }
 .molecules img {
-  width: 100vw;
+  width: 100%;
+  position: relative;
 }
 .age-container {
   margin: 0 auto;

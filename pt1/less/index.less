@@ -1,11 +1,13 @@
-// body {
-// 	width: ;
-// }
+body {
+  overflow-x: hidden;
+}
 
 .main-content {
   margin: 13.8vw 0px 74.9vh 96px;
   z-index: 1;
   width: 45vw;
+  min-width: 730px;
+  position: absolute;
 }
 
 .prompt-header {
@@ -87,12 +89,13 @@
 
 .molecules {
   pointer-events: none;
-  margin-top: 7%;
-  margin-bottom: 6.3%;
-  z-index: 0;
-  float: right;
-  position: absolute;
+  margin-top: 3%;
+  width: 100vw;
+  min-width: 1245px;
+  overflow: hidden;
+  height: 135.7%;
   img {
-    width: 100vw;
+    width: 100%;
+    position: relative;
   }
 }
