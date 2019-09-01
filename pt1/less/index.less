@@ -1,37 +1,41 @@
-body {
-  overflow-x: hidden;
-}
+// body {
+// 	width: ;
+// }
 
 .main-content {
-  margin: 13.8vw 0px 0px 96px;
-  z-index: 1;
-  width: 45vw;
-  min-width: 730px;
-  position: absolute;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+.nav-wrapper img {
+  padding: 1.125em 0em 0em 1.375em;
 }
 
 .prompt-header {
+  width: 51%;
   font-family: "gilroylight";
   font-weight: 900;
   color: #3f3f3f;
+  line-height: 1.25em;
+  padding: 58px 0px 0px 26px;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: 0.25px;
 }
 
 .prompt-paragraph {
-  padding: 39px 0px 0px 0px;
+  padding: 37px 0px 0px 24px;
   font-family: gilroylight;
   line-height: 30px;
   font-size: 21px;
-  letter-spacing: 0.05px;
-  width: 86%;
-  font-weight: 800;
+  letter-spacing: 0.25px;
+  /* padding-bottom: 10px; */
+  width: 46%;
 }
 
 .findTrialInputs {
   display: flex;
-  padding: 46px 0px 0px 0px;
+  padding: 45px 0px 0px 11px;
 }
 
 #findTrialButton {
@@ -41,7 +45,8 @@ body {
   width: 127px;
   border: 0;
   color: white;
-
+  /* text-align: center; */
+  align-items: center;
   justify-content: center;
   text-decoration: none;
   display: flex;
@@ -51,8 +56,6 @@ body {
   text-transform: uppercase;
   transition: 0.3s background ease;
   z-index: 1;
-  text-align: center;
-  align-items: center;
 
   &:hover {
     background: #1bd9c4;
@@ -89,13 +92,11 @@ body {
 
 .molecules {
   pointer-events: none;
-  margin-top: 3%;
-  width: 100vw;
-  min-width: 1245px;
-  overflow: hidden;
-  max-height: 120vh;
+  margin-top: -30%;
+  margin-bottom: 6.3%;
+  z-index: 0;
+  float: right;
   img {
-    width: 100%;
-    position: relative;
+    width: 100vw;
   }
 }
