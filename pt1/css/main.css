@@ -257,7 +257,7 @@ body {
   overflow-x: hidden;
 }
 .main-content {
-  margin: 13.8vw 0px 74.9vh 96px;
+  margin: 13.8vw 0px 0px 96px;
   z-index: 1;
   width: 45vw;
   min-width: 730px;
@@ -338,7 +338,7 @@ body {
   width: 100vw;
   min-width: 1245px;
   overflow: hidden;
-  height: 135.7%;
+  max-height: 120vh;
 }
 .molecules img {
   width: 100%;
