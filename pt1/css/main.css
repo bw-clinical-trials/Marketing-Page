@@ -1,12 +1,14 @@
 @font-face {
-  font-family: 'gilroyextrabold';
-  src: url('../fonts/webfontkit/gilroy-extrabold-webfont.woff2') format('woff2'), url('../fonts/webfontkit/gilroy-extrabold-webfont.woff') format('woff');
+  font-family: "gilroyextrabold";
+  src: url("../fonts/webfontkit/gilroy-extrabold-webfont.woff2") format("woff2"),
+    url("../fonts/webfontkit/gilroy-extrabold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'gilroylight';
-  src: url('../fonts/webfontkit/gilroy-light-webfont.woff2') format('woff2'), url('../fonts/webfontkit/gilroy-light-webfont.woff') format('woff');
+  font-family: "gilroylight";
+  src: url("../fonts/webfontkit/gilroy-light-webfont.woff2") format("woff2"),
+    url("../fonts/webfontkit/gilroy-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -131,7 +133,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -188,10 +190,10 @@ img {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-family: 'gilroylight';
+  font-family: "gilroylight";
   font-size: 1.8rem;
   font-weight: 900;
-  color: #3F3F3F;
+  color: #3f3f3f;
   align-content: center;
 }
 .nav-wrapper .nav-bar :nth-last-child(2) {
@@ -321,6 +323,10 @@ img {
   margin-top: -30%;
   margin-bottom: 6.3%;
   z-index: 0;
+  float: right;
+}
+.molecules img {
+  width: 100vw;
 }
 .age-container {
   margin: 0 auto;
@@ -354,7 +360,7 @@ img {
   border: 0.05em solid #979797;
   font-family: gilroylight;
   font-size: 16px;
-  font-color: #AEAEAE;
+  font-color: #aeaeae;
   padding: 0px 0px 0px 235px;
 }
 #submitAge {
@@ -373,7 +379,7 @@ img {
   transition: 0.3s background ease;
 }
 #submitAge:hover {
-  background: #1BD9C4;
+  background: #1bd9c4;
 }
 .age-results {
   display: flex;
@@ -386,7 +392,7 @@ img {
   width: 232px;
   padding: 0px 0px 0px 0px;
   margin: 6px 0px 0px 300px;
-  font-family: 'gilroylight';
+  font-family: "gilroylight";
   font-size: 2.1em;
   font-weight: 900;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
@@ -424,7 +430,7 @@ img {
 .travelRadiusPrompt p {
   line-height: 1.5;
   font-size: 2.1rem;
-  font-family: 'gilroylight';
+  font-family: "gilroylight";
   padding: 0px 0px 3px 0px;
   margin: 6px 0px 0px -6px;
 }
@@ -439,7 +445,7 @@ img {
   /* padding-bottom: 30px; */
   font-size: 21px;
   font-weight: 500;
-  font-family: 'gilroylight';
+  font-family: "gilroylight";
 }
 .radioContainerTravelRadius input {
   display: none;
@@ -448,17 +454,17 @@ img {
   display: inline-block;
   width: 28px;
   height: 28px;
-  border: 0.05em solid #1BD9C4;
+  border: 0.05em solid #1bd9c4;
   position: absolute;
   left: 0;
   top: 0;
   border-radius: 50%;
 }
 .radioContainerTravelRadius:hover .circle {
-  background-color: #1BD9C4;
+  background-color: #1bd9c4;
 }
 .radioContainerTravelRadius input:checked + .circle {
-  background-color: #1BD9C4;
+  background-color: #1bd9c4;
 }
 .travel-results {
   display: flex;
