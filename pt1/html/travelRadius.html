@@ -17,29 +17,33 @@
     <section class="travelRadiusMainContent">
 
         <div class="box">
-            <div class="chart" data-percent="50" barColor=></div>
+            <div class="chart" data-percent="0" barColor=></div>
         </div>
 
         <form class="travelRadiusPrompt">
             <p>How far are you willing to travel?</p>
             
             <label class="radioContainerTravelRadius" for="radiusTwentyMiles"> 20 miles
-                <input type="radio" name="radius" id="radiusTwentyMiles" value="20" >
+                <input type="radio" name="radius" id="radiusTwentyMiles" value="20" 
+                onclick="$('.chart').data('easyPieChart').update(50);" >
                 <span class="circle"></span>
             </label> 
 
             <label class="radioContainerTravelRadius" for="radiusFiftyMiles"> 50 miles
-                <input type="radio" name="radius" id="radiusFiftyMiles" value="50" >
+                <input type="radio" name="radius" id="radiusFiftyMiles" value="50"
+                onclick="$('.chart').data('easyPieChart').update(50);"  >
                 <span class="circle"></span> 
             </label>
 
             <label class="radioContainerTravelRadius" for="radiusHundredMiles"> 100 miles
-                <input type="radio" name="radius" id="radiusHundredMiles" value="100" >
+                <input type="radio" name="radius" id="radiusHundredMiles" value="100"
+                onclick="$('.chart').data('easyPieChart').update(50);" >
                 <span class="circle"></span>
             </label>
             
             <label class="radioContainerTravelRadius" for="radiusAny"> Any distance
-                <input type="radio" name="radius" id="radiusAny" value=">100" >
+                <input type="radio" name="radius" id="radiusAny" value=">100" onclick="
+                $('.chart').data('easyPieChart').update(50);">
                 <span class="circle"></span>            
             </label>
 
@@ -70,6 +74,7 @@
                 scaleColor: '#FFF',
                 lineWidth: 6,
             });
+ 
         });
     </script>
 </body>

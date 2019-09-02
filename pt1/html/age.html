@@ -4,6 +4,8 @@
         <meta charset='UTF-8'/>
         <title>Studybook - Age</title>
         <link rel='stylesheet' href='../css/main.css'/>
+
+        <script>function myFunction() { setTimeout(function(){ window.location.href = "../../pt2/searchResults.html"; }, 1500); }</script>
     </head>
 
 <body class="age-container">
@@ -14,7 +16,7 @@
 
     <section class="age-main-content">
         <div class="box">
-            <div class="chart" data-percent="95" barColor=></div>
+            <div class="chart" data-percent="50" barColor=></div>
         </div>
 
         <form class="age-prompt">
@@ -22,9 +24,13 @@
             <label for="age"></label>
             <input type="text" id="ageInput" placeholder="years"> 
 
-            <a href="../../pt2/searchResults.html" class="genericButton">Submit</a> 
-        </form>
 
+        </form>
+        <button  class="genericButton" onclick="
+        $('.chart').data('easyPieChart').update(100);
+        myFunction();
+    
+    " >Submit</button> 
         <div class="age-results">
             <p class="age-results-text">43 trials found</p>
         </div>
@@ -39,12 +45,19 @@
     <script src="../JavaScript/jquery.easypiechart.js"></script>
     <script>
         $(function() {
+
+
             $('.chart').easyPieChart({
                 barColor:'#1BD9C4',
                 trackColor: '#D9D9D9',
                 scaleColor: '#FFF',
                 lineWidth: 6,
+
             });
+            $('.chart').data('easyPieChart').update(50);
+                //update instance after 5 sec
+
+
         });
     </script>
 </body>
