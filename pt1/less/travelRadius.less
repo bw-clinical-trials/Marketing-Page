@@ -1,84 +1,87 @@
 // STYLE FOR AGE.PNG
 
 .age-container {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .travelRadiusHeader {
-    display: block;
-    margin: 8.5% 0% 0% 13%;
+  display: block;
+  padding: 121px 0px 0px 187px;
 
-    img {
-        height: 63px;	
-        width: 172px; 
-    }
+  img {
+    height: 63px;
+    width: 172px;
+  }
 }
-
 
 .travelRadiusDial {
-	margin-left: 20%;
+  margin-left: 20%;
 }
 .travelRadiusMainContent {
-    display: flex;
-    /* padding: 81px 0px 0px 218px; */
-    margin: 5.5% 0% 0% 15%;
-    letter-spacing: 0.1px;
+  display: flex;
+  margin: 81px 0px 0px 11.3vw;
 }
 
-.travelRadiusMainContent .box .chart{
-    padding: 0px 0px 0px 0px;
+.travelRadiusMainContent .box .chart {
+  padding: 0px 0px 0px 0px;
 }
 
 .travelRadiusPrompt {
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    margin: 0% 0% 0% 6%;
 
-	p{
-        line-height: 1.5;
-        font-size: 2.1rem;
-        font-family: 'gilroylight';
-        padding: 0px 0px 3px 0px;
-        margin: 6px 0px 0px -6px;
-	}
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  padding: 0px 82px 0px 73px;
+
+  .genericButton {
+    background-color: lightgray;
+    pointer-events: none;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 2.1rem;
+    font-family: "gilroylight";
+    padding: 0px 0px 3px 0px;
+    margin: 6px 0px 0px -6px;
+  }
 }
 
 .radioContainerTravelRadius {
-    display: flex;
-    position: relative;
-    cursor: pointer;
-    user-select: none;
-    padding: 3px 0px 2px 43px;
-    margin: 34px 0px 0px 0px;
-    /* padding-left: 45px; */
-    /* padding-bottom: 30px; */
-    font-size: 21px;
-    font-weight: 500;
-    font-family: 'gilroylight';
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  padding: 3px 0px 2px 43px;
+  margin: 34px 0px 0px 0px;
+  /* padding-left: 45px; */
+  /* padding-bottom: 30px; */
+  font-size: 21px;
+  font-weight: 500;
+  font-family: "gilroylight";
 }
 
 .radioContainerTravelRadius input {
-    display: none;
+  display: none;
 }
 
 .radioContainerTravelRadius .circle {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    border: .05em solid @accent-color;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 50%; 
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 0.05em solid @accent-color;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
 }
 
 .radioContainerTravelRadius:hover .circle {
-    background-color: @accent-color; 
+  background-color: @accent-color;
 }
 
-.radioContainerTravelRadius input:checked + .circle{
-    background-color: @accent-color;
+.radioContainerTravelRadius input:checked + .circle {
+  background-color: @accent-color;
 }
 
 
@@ -110,31 +113,28 @@
 
 
 .travel-results {
-    margin: 0% 17% 0% 22.7%;
-    padding: 0.8% 0% 0% 0%;
-    display: flex;
 
-    p {
-      padding-right: 18px;
-      padding-bottom: 0px;  
-    }
+  display: flex;
 }
 
 .travel-results-text {
-    display: flex;
-    height: 91px;
-    width: 232px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-    font-family: 'gilroylight';
-    font-size: 2.1em;
-    line-height: 25;
-    
-    font-weight: 900;
-
+  display: flex;
+  height: 91px;
+  width: 232px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin: 9px 0px 0px 198px;
+  /* text-align: center; */
+  /* justify-items: center; */
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
+  font-family: gilroylight;
+  font-size: 2.1em;
+  line-height: 25;
+  letter-spacing: 1px;
+  font-weight: 900;
 }
 
 .travelRadiusBackArrow {
-    margin: 7% 0% 0% 10%;
+  padding: 145px 0px 0px 80px;
 }
