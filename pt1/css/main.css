@@ -422,7 +422,7 @@ body {
 }
 .travelRadiusHeader {
   display: block;
-  padding: 121px 0px 0px 187px;
+  margin: 8.5% 0% 0% 13%;
 }
 .travelRadiusHeader img {
   height: 63px;
@@ -433,6 +433,7 @@ body {
 }
 .travelRadiusMainContent {
   display: flex;
+
   margin: 81px 0px 0px 11.3vw;
 }
 .travelRadiusMainContent .box .chart {
@@ -442,7 +443,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 50vh;
-  padding: 0px 82px 0px 73px;
+  margin: 0% 0% 0% 6%;
 }
 .travelRadiusPrompt .genericButton {
   background-color: lightgray;
@@ -487,8 +488,34 @@ body {
 .radioContainerTravelRadius input:checked + .circle {
   background-color: #1BD9C4;
 }
-.travel-results {
+.travelRadiusPrompt a {
+  background-color: #223547;
+  font-family: "gilroylight";
+  height: 46px;
+  width: 105px;
+  margin-top: 23px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: 0.3s background ease;
+}
+.travelRadiusPrompt a:hover {
+  background: #1BD9C4;
+}
+.travel-results {
+  margin: 0% 17% 0% 22.7%;
+  padding: 0.8% 0% 0% 0%;
+  display: flex;
+}
+.travel-results p {
+  padding-right: 18px;
+  padding-bottom: 0px;
 }
 .travel-results-text {
   display: flex;
@@ -496,17 +523,12 @@ body {
   width: 232px;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 0px 0px;
-  margin: 9px 0px 0px 198px;
-  /* text-align: center; */
-  /* justify-items: center; */
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-  font-family: gilroylight;
+  font-family: 'gilroylight';
   font-size: 2.1em;
   line-height: 25;
-  letter-spacing: 1px;
   font-weight: 900;
 }
 .travelRadiusBackArrow {
-  padding: 145px 0px 0px 80px;
+  margin: 7% 0% 0% 10%;
 }
