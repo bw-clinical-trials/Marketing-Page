@@ -43,11 +43,11 @@
             
             <label class="radioContainerTravelRadius" for="radiusAny"> Any distance
                 <input type="radio" name="radius" id="radiusAny" value=">100" onclick="
-                $('.chart').data('easyPieChart').update(50);">
+                $('.chart').data('easyPieChart').update(50);document.getElementById('radiusSubmit').style.backgroundColor = '#223547';document.getElementById('radiusSubmit').style.pointerEvents = 'all';">
                 <span class="circle"></span>            
             </label>
 
-             <a href="age.html" class="genericButton">Submit</a>
+             <a href="age.html" class="genericButton" id="radiusSubmit">Submit</a>
 
         </form> 
 
