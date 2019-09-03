@@ -377,7 +377,7 @@ body {
   border: 0.05em solid #979797;
   font-family: gilroylight;
   font-size: 16px;
-  font-color: #aeaeae;
+  color: #aeaeae;
   padding: 0px 0px 0px 235px;
 }
 #submitAge {
@@ -429,12 +429,9 @@ body {
   height: 63px;
   width: 172px;
 }
-.travelRadiusDial {
-  margin-left: 20%;
-}
 .travelRadiusMainContent {
   display: flex;
-  margin: 5.6vw 13vw 0vw 15vw;
+  margin: 5.6% 0% 0% 15%;
 }
 .travelRadiusMainContent .box .chart {
   display: flex;
@@ -442,10 +439,8 @@ body {
 .travelRadiusPrompt {
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  /* padding: 0px 0px 0px 7px; */
+  width: 38%;
   margin: 0% 0% 0% 6%;
-  width: 45%;
 }
 .travelRadiusPrompt .genericButton {
   background-color: lightgray;
@@ -513,7 +508,7 @@ body {
 }
 .travel-results {
   display: flex;
-  margin: 0.8% 0% 0% 3.2%;
+  margin: 0.8% 0% 0% 10.2%;
 }
 .travel-results-text {
   display: flex;
@@ -533,5 +528,5 @@ body {
   font-weight: 900;
 }
 .travelRadiusBackArrow {
-  padding: 145px 0px 0px 80px;
+  margin: 18.7% 0% 0% 5.55%;
 }
