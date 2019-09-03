@@ -349,7 +349,9 @@ body {
   margin: 0 auto;
 }
 .age-page-logo {
-  padding: 120px 0px 0px 144px;
+  display: block;
+  margin: 8.4% 0% 0% 12.88%;
+  padding-left: 1px;
 }
 .age-page-logo img {
   height: 63px;
@@ -357,49 +359,57 @@ body {
 }
 .age-main-content {
   display: flex;
-  margin: 81px 0px 0px 11.3vw;
+  margin: 5.5% 0% 0% 15%;
+}
+.agePromptAndSubmit {
+  margin: 0.4% 0% 0% 4.2%;
 }
 .age-prompt {
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  padding: 0px 0px 0px 68px;
+  /* height: 50vh; */
+  margin: 0.55% 0% 0% 5.5%;
   font-family: gilroylight;
 }
 .age-prompt p {
   font-size: 2.1em;
-  padding: 3px 0px 27px 0px;
+  margin: 0% 0% 6.2% 0%;
 }
 #ageInput {
-  width: 18.5em;
+  width: 18.53em;
   height: 48px;
-  border-radius: 35px;
+  border-radius: 50px;
   border: 0.05em solid #979797;
   font-family: gilroylight;
   font-size: 16px;
-  font-color: #aeaeae;
-  padding: 0px 0px 0px 235px;
+  color: #aeaeae;
+  padding: 0.5% 0% 0% 83.2%;
 }
-#submitAge {
+.genericButton {
   background-color: #223547;
   font-family: "gilroylight";
-  height: 46px;
+  height: 47px;
   width: 105px;
-  margin-top: 23px;
-  border: none;
+  margin: 0% 0% 0% 5.7%;
+  border: 0;
   color: white;
-  text-align: center;
+  justify-content: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  border-radius: 30px;
+  display: flex;
+  font-size: 1.8rem;
+  border-radius: 56px;
   transition: 0.3s background ease;
+  z-index: 1;
+  text-align: center;
+  align-items: center;
+  margin-top: 23px;
 }
-#submitAge:hover {
+.genericButton:hover {
   background: #1bd9c4;
 }
 .age-results {
   display: flex;
+  margin: 0.8% 0% 0% 25.75%;
 }
 .age-results-text {
   display: flex;
@@ -407,42 +417,38 @@ body {
   align-items: center;
   height: 91px;
   width: 232px;
-  padding: 0px 0px 0px 0px;
-  margin: 6px 0px 0px 300px;
   font-family: "gilroylight";
+  padding: 0% 12% 0% 0%;
   font-size: 2.1em;
   font-weight: 900;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
 }
 .ageBackArrow {
-  padding: 142px 0px 0px 38px;
+  margin: 18.7% 0% 0% 5.55%;
 }
 .age-container {
   margin: 0 auto;
 }
 .travelRadiusHeader {
   display: block;
-  margin: 8.5% 0% 0% 13%;
+  margin: 8.4% 0% 0% 12.88%;
+  padding-left: 1px;
 }
 .travelRadiusHeader img {
   height: 63px;
   width: 172px;
 }
-.travelRadiusDial {
-  margin-left: 20%;
-}
 .travelRadiusMainContent {
   display: flex;
-
-  margin: 81px 0px 0px 11.3vw;
+  margin: 5.6% 0% 0% 15%;
 }
 .travelRadiusMainContent .box .chart {
-  padding: 0px 0px 0px 0px;
+  display: flex;
 }
 .travelRadiusPrompt {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  width: 38%;
   margin: 0% 0% 0% 6%;
 }
 .travelRadiusPrompt .genericButton {
@@ -455,6 +461,7 @@ body {
   font-family: "gilroylight";
   padding: 0px 0px 3px 0px;
   margin: 6px 0px 0px -6px;
+  letter-spacing: 0.1px;
 }
 .radioContainerTravelRadius {
   display: flex;
@@ -509,26 +516,26 @@ body {
   background: #1BD9C4;
 }
 .travel-results {
-  margin: 0% 17% 0% 22.7%;
-  padding: 0.8% 0% 0% 0%;
   display: flex;
-}
-.travel-results p {
-  padding-right: 18px;
-  padding-bottom: 0px;
+  margin: 0.8% 0% 0% 10.2%;
 }
 .travel-results-text {
   display: flex;
-  height: 91px;
-  width: 232px;
+  height: 4.3em;
+  width: 11em;
   justify-content: center;
   align-items: center;
+  padding: 0px 21px 0px 0px;
+  /* margin: 9px 0px 0px 198px; */
+  /* text-align: center; */
+  /* justify-items: center; */
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-  font-family: 'gilroylight';
+  font-family: gilroylight;
   font-size: 2.1em;
   line-height: 25;
+  letter-spacing: px;
   font-weight: 900;
 }
 .travelRadiusBackArrow {
-  margin: 7% 0% 0% 10%;
+  margin: 7.2% 0% 0% 5.55%;
 }
