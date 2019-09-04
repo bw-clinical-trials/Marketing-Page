@@ -1,12 +1,14 @@
-// STYLE FOR AGE.PNG
+
 
 .age-container {
   margin: 0 auto;
 }
 
 .travelRadiusHeader {
+ 
   display: block;
-  padding: 121px 0px 0px 187px;
+  margin: 8.4% 0% 0% 12.88%;
+  padding-left: 1px;
 
   img {
     height: 63px;
@@ -14,23 +16,22 @@
   }
 }
 
-.travelRadiusDial {
-  margin-left: 20%;
-}
 .travelRadiusMainContent {
   display: flex;
-  margin: 81px 0px 0px 11.3vw;
+  margin: 5.6% 0% 0% 15%;
 }
 
 .travelRadiusMainContent .box .chart {
-  padding: 0px 0px 0px 0px;
+  display: flex;
 }
 
 .travelRadiusPrompt {
+
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  padding: 0px 82px 0px 73px;
+  width: 38%;
+  margin: 0% 0% 0% 6%;
+  
 
   .genericButton {
     background-color: lightgray;
@@ -43,6 +44,7 @@
     font-family: "gilroylight";
     padding: 0px 0px 3px 0px;
     margin: 6px 0px 0px -6px;
+    letter-spacing: 0.1px;
   }
 }
 
@@ -83,48 +85,57 @@
   background-color: @accent-color;
 }
 
-// #travelRadiusSubmit{
-// 	background-color: @button-color;
-// 	font-family: "gilroylight";
-//     height: 46px;
-//     width: 105px;
-//     margin-top: 23px;
-//     border: none;
-//     color: white;
-//     text-align: center;
-//     text-decoration: none;
-//     display: inline-block;
-//     font-size: 18px;
-//     border-radius: 30px;
-//     transition: 0.3s background ease;
 
-// 	&:hover{
-// 		background: #1BD9C4
-// 	}
-// }
+
+.travelRadiusPrompt {
+    a {
+        background-color: @button-color;
+        font-family: "gilroylight";
+        height: 46px;
+        width: 105px;
+        margin-top: 23px;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        border-radius: 30px;
+        transition: 0.3s background ease;
+
+        &:hover {
+            background: #1BD9C4
+        }
+    }
+}
+
+
 
 .travel-results {
   display: flex;
+  margin: 0.8% 0% 0% 10.2%;
 }
 
 .travel-results-text {
   display: flex;
-  height: 91px;
-  width: 232px;
+  height: 4.3em;
+  width: 11em;
   justify-content: center;
   align-items: center;
-  padding: 0px 0px 0px 0px;
-  margin: 9px 0px 0px 198px;
+  padding: 0px 21px 0px 0px;
+  /* margin: 9px 0px 0px 198px; */
   /* text-align: center; */
   /* justify-items: center; */
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
   font-family: gilroylight;
   font-size: 2.1em;
   line-height: 25;
-  letter-spacing: 1px;
+  letter-spacing: px;
   font-weight: 900;
 }
 
 .travelRadiusBackArrow {
-  padding: 145px 0px 0px 80px;
+  margin: 7.2% 0% 0% 5.55%;
 }
